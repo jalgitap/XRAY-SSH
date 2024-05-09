@@ -93,11 +93,11 @@ off='\x1b[m'
 
 clear
 apt install jq curl -y
-DOMAIN=autooo.cfd
+DOMAIN=asle.me
 sub=$(tr -dc a-z0-9 </dev/urandom | head -c 5 ; echo '')
 SUB_DOMAIN=${sub}.asle.me
 CF_ID=ashabulymn@gmail.com
-CF_KEY=Lg38RrXF1Ic6SdRddHg2M6HjzypRTRX9eQahVttJ
+CF_KEY=tT1JyDCHJesTTK9kCBeQmMNK3Re9N0eAtq818COj
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
