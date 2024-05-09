@@ -82,9 +82,9 @@ rm -rf /root/udp
 mkdir -p /root/udp
 
 #Install backup
-wget -q -O /usr/bin/autov1 "https://sc1.asle.me/backup/autobckp_v1.sh" && chmod +x /usr/bin/autov1
-wget -q -O /usr/bin/autov2 "https://sc1.asle.me/backup/autobckp_v2.sh" && chmod +x /usr/bin/autov2
-wget -q -O /usr/bin/autobckpbot "https://sc1.asle.me/backup/bckp.sh" && chmod +x /usr/bin/autobckpbot
+wget -q -O /usr/bin/autov1 "http://sc1.asle.me/backup/autobckp_v1.sh" && chmod +x /usr/bin/autov1
+wget -q -O /usr/bin/autov2 "http://sc1.asle.me/backup/autobckp_v2.sh" && chmod +x /usr/bin/autov2
+wget -q -O /usr/bin/autobckpbot "http://sc1.asle.me/backup/bckp.sh" && chmod +x /usr/bin/autobckpbot
 
 #Fix sslh
 echo "10 9 * * * root systemctl stop ws-tls && systemctl restart sslh && systemctl restart ws-tls" >/etc/cron.d/fixsslh
