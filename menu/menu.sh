@@ -573,7 +573,7 @@ clear
 apt update && apt upgrade
 apt install python3 python3-pip git
 #git clone https://github.com/jalgitap/XRAY-SSH.git
-#unzip XRAY-SSH/xolpanel.zip
+#unzip xolpanel.zip
 wget https://raw.githubusercontent.com/jalgitap/XRAY-SSH/main/xolpanel.zip
 unzip XRAY-SSH/xolpanel.zip
 pip3 install -r xolpanel/requirements.txt
