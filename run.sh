@@ -196,7 +196,7 @@ read -p "$( echo -e "${tyblue}Select Options ? ${NC}(${red}1/2${NC})${NC} " )" c
 
 # // Validating Automatic / Private
 if [[ $choose_domain == "2" ]]; then # // Using Automatic Domain
-    wget https://sc1.asle.me/menu/autopointing.sh && chmod +x autopointing.sh && ./autopointing.sh
+    wget --no-check-certificate https://sc1.asle.me/menu/autopointing.sh && chmod +x autopointing.sh && ./autopointing.sh
 
 # // ELif For Selection 1
 elif [[ $choose_domain == "1" ]]; then
@@ -288,8 +288,8 @@ ${or}└────────────────────────
 "
 sleep 3
 wget http://sc1.asle.me/ssh/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
-wget -q -O /usr/bin/limit "https://sc1.asle.me/menu/limit.sh" && chmod +x /usr/bin/limit
-wget -q -O /usr/bin/monitorbw "https://sc1.asle.me/menu/monitoring.sh" && chmod +x /usr/bin/monitorbw
+wget -q -O /usr/bin/limit "--no-check-certificate https://sc1.asle.me/menu/limit.sh" && chmod +x /usr/bin/limit
+wget -q -O /usr/bin/monitorbw "--no-check-certificate https://sc1.asle.me/menu/monitoring.sh" && chmod +x /usr/bin/monitorbw
 
 
 mydomain=$(cat /etc/xray/domain)
