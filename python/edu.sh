@@ -17,7 +17,7 @@ off='\x1b[m'
 akbarvpn="sc1.asle.me/python"
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-nontls http://sc1.asle.me/python/websocket.py
+wget -q -O /usr/local/bin/ws-nontls https://sc1.asle.me/python/websocket.py
 chmod +x /usr/local/bin/ws-nontls
 
 # Installing Service
@@ -45,7 +45,7 @@ systemctl enable ws-nontls
 systemctl restart ws-nontls
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-ovpn http://sc1.asle.me/python/ws-ovpn.py
+wget -q -O /usr/local/bin/ws-ovpn https://sc1.asle.me/python/ws-ovpn.py
 chmod +x /usr/local/bin/ws-ovpn
 
 # Installing Service
@@ -73,7 +73,7 @@ systemctl enable ws-ovpn
 systemctl restart ws-ovpn
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-tls http://sc1.asle.me/python/ws-tls
+wget -q -O /usr/local/bin/ws-tls https://sc1.asle.me/python/ws-tls
 chmod +x /usr/local/bin/ws-tls
 
 # Installing Service

@@ -196,7 +196,7 @@ read -p "$( echo -e "${tyblue}Select Options ? ${NC}(${red}1/2${NC})${NC} " )" c
 
 # // Validating Automatic / Private
 if [[ $choose_domain == "2" ]]; then # // Using Automatic Domain
-    wget http://sc1.asle.me/menu/autopointing.sh && chmod +x autopointing.sh && ./autopointing.sh
+    wget https://sc1.asle.me/menu/autopointing.sh && chmod +x autopointing.sh && ./autopointing.sh
 
 # // ELif For Selection 1
 elif [[ $choose_domain == "1" ]]; then
@@ -247,7 +247,7 @@ ${or}│${NC}${S}     Downloading & Installing Xray Vmess      ${NC}${or}│${NC
 ${or}└──────────────────────────────────────────────┘${NC}
 "
 sleep 3
-wget http://sc1.asle.me/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://sc1.asle.me/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 
 clear
 # // Setup Install Ssh And OpenVPN
@@ -257,7 +257,7 @@ ${or}│${NC}${S}       Downloading & Installing OpenVPN       ${NC}${or}│${NC
 ${or}└──────────────────────────────────────────────┘${NC}
 "
 sleep 3
-wget http://sc1.asle.me/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://sc1.asle.me/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 
 # // Setup Install SET-BR ora etc file
 clear
@@ -267,7 +267,7 @@ ${or}│${NC}${S}       Downloading & Installing SET-BR        ${NC}${or}│${NC
 ${or}└──────────────────────────────────────────────┘${NC}
 "
 sleep 3
-wget http://sc1.asle.me/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://sc1.asle.me/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 # // Setup Install Python SSH-WS
 clear
@@ -277,7 +277,7 @@ ${or}│${NC}${S}       Downloading & Installing SSH-WS        ${NC}${or}│${NC
 ${or}└──────────────────────────────────────────────┘${NC}
 "
 sleep 3
-wget http://sc1.asle.me/python/edu.sh && chmod +x edu.sh && ./edu.sh
+wget https://sc1.asle.me/python/edu.sh && chmod +x edu.sh && ./edu.sh
 
 # // Setup Install UDP Custom
 clear
@@ -287,9 +287,9 @@ ${or}│${NC}${S}     Downloading & Installing UDP Custom      ${NC}${or}│${NC
 ${or}└──────────────────────────────────────────────┘${NC}
 "
 sleep 3
-wget http://sc1.asle.me/ssh/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
-wget -q -O /usr/bin/limit "http://sc1.asle.me/menu/limit.sh" && chmod +x /usr/bin/limit
-wget -q -O /usr/bin/monitorbw "http://sc1.asle.me/menu/monitoring.sh" && chmod +x /usr/bin/monitorbw
+wget https://sc1.asle.me/ssh/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
+wget -q -O /usr/bin/limit "https://sc1.asle.me/menu/limit.sh" && chmod +x /usr/bin/limit
+wget -q -O /usr/bin/monitorbw "https://sc1.asle.me/menu/monitoring.sh" && chmod +x /usr/bin/monitorbw
 
 
 mydomain=$(cat /etc/xray/domain)

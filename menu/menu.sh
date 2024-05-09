@@ -289,24 +289,24 @@ echo -e "------------------------------------------------------" | lolcat
 echo -e "  ${W}Please wait processing update autoscript xray-ssh${NC}"
 echo -e "------------------------------------------------------" | lolcat
 sleep 1
-wget -q -O /usr/bin/autobckpbot "http://sc1.asle.me/backup/bckp.sh" && chmod +x /usr/bin/autobckpbot
-wget -q -O /usr/bin/cf-pointing "http://sc1.asle.me/menu/cloudflare-pointing.sh" && chmod +x /usr/bin/cf-pointing
-wget -q -O /usr/bin/aubckp "http://sc1.asle.me/backup/autobckp.sh" && chmod +x /usr/bin/aubckp
-wget -q -O /usr/bin/cf-setting "http://sc1.asle.me/menu/cloudflare-setting.sh" && chmod +x /usr/bin/cf-setting
-wget -q -O /usr/bin/menu "http://sc1.asle.me/menu/menu.sh" && chmod +x /usr/bin/menu
-wget -q -O /usr/bin/menu-ssh "http://sc1.asle.me/menu/function-ssh.sh" && chmod +x /usr/bin/menu-ssh
-wget -q -O /usr/bin/menu-vmess "http://sc1.asle.me/menu/function-vmess.sh" && chmod +x /usr/bin/menu-vmess
-wget -q -O /usr/bin/menu-trgo "http://sc1.asle.me/menu/function-trgo.sh" && chmod +x /usr/bin/menu-trgo
-wget -q -O /usr/bin/license "http://sc1.asle.me/menu/license.sh" && chmod +x /usr/bin/license
-wget -q -O /usr/bin/backup "http://sc1.asle.me/backup/gdrive.sh" && chmod +x /usr/bin/backup
-wget -q -O /usr/bin/bkp "http://sc1.asle.me/backup/autobackup.sh" && chmod +x /usr/bin/bkp
-wget -q -O /usr/bin/info "http://sc1.asle.me/ssh/info.sh" && chmod +x /usr/bin/info
-wget -q -O /usr/bin/exp "http://sc1.asle.me/ssh/autoremove.sh" && chmod +x /usr/bin/exp
-wget -q -O /usr/bin/wbmn "http://sc1.asle.me/ssh/webmin.sh" && chmod +x /usr/bin/wbmn
-wget -q -O /usr/bin/limit "http://sc1.asle.me/menu/limit.sh" && chmod +x /usr/bin/limit
-wget -q -O /usr/bin/monitorbw "http://sc1.asle.me/menu/monitoring.sh" && chmod +x /usr/bin/monitorbw
-wget -q -O /usr/bin/autov1 "http://sc1.asle.me/backup/autobckp_v1.sh" && chmod +x /usr/bin/autov1
-wget -q -O /usr/bin/autov2 "http://sc1.asle.me/backup/autobckp_v2.sh" && chmod +x /usr/bin/autov2
+wget -q -O /usr/bin/autobckpbot "https://sc1.asle.me/backup/bckp.sh" && chmod +x /usr/bin/autobckpbot
+wget -q -O /usr/bin/cf-pointing "https://sc1.asle.me/menu/cloudflare-pointing.sh" && chmod +x /usr/bin/cf-pointing
+wget -q -O /usr/bin/aubckp "https://sc1.asle.me/backup/autobckp.sh" && chmod +x /usr/bin/aubckp
+wget -q -O /usr/bin/cf-setting "https://sc1.asle.me/menu/cloudflare-setting.sh" && chmod +x /usr/bin/cf-setting
+wget -q -O /usr/bin/menu "https://sc1.asle.me/menu/menu.sh" && chmod +x /usr/bin/menu
+wget -q -O /usr/bin/menu-ssh "https://sc1.asle.me/menu/function-ssh.sh" && chmod +x /usr/bin/menu-ssh
+wget -q -O /usr/bin/menu-vmess "https://sc1.asle.me/menu/function-vmess.sh" && chmod +x /usr/bin/menu-vmess
+wget -q -O /usr/bin/menu-trgo "https://sc1.asle.me/menu/function-trgo.sh" && chmod +x /usr/bin/menu-trgo
+wget -q -O /usr/bin/license "https://sc1.asle.me/menu/license.sh" && chmod +x /usr/bin/license
+wget -q -O /usr/bin/backup "https://sc1.asle.me/backup/gdrive.sh" && chmod +x /usr/bin/backup
+wget -q -O /usr/bin/bkp "https://sc1.asle.me/backup/autobackup.sh" && chmod +x /usr/bin/bkp
+wget -q -O /usr/bin/info "https://sc1.asle.me/ssh/info.sh" && chmod +x /usr/bin/info
+wget -q -O /usr/bin/exp "https://sc1.asle.me/ssh/autoremove.sh" && chmod +x /usr/bin/exp
+wget -q -O /usr/bin/wbmn "https://sc1.asle.me/ssh/webmin.sh" && chmod +x /usr/bin/wbmn
+wget -q -O /usr/bin/limit "https://sc1.asle.me/menu/limit.sh" && chmod +x /usr/bin/limit
+wget -q -O /usr/bin/monitorbw "https://sc1.asle.me/menu/monitoring.sh" && chmod +x /usr/bin/monitorbw
+wget -q -O /usr/bin/autov1 "https://sc1.asle.me/backup/autobckp_v1.sh" && chmod +x /usr/bin/autov1
+wget -q -O /usr/bin/autov2 "https://sc1.asle.me/backup/autobckp_v2.sh" && chmod +x /usr/bin/autov2
 sleep 2
 echo -e "${or}Update AutoScript XRAY-SSH Succesfuly${NC}"
 echo -e ""
