@@ -14,7 +14,7 @@ VMESS NONE TLS : 8880
 TTROJAN GO : 2087 </br></br>
 
 ### INSTALL COMMAND
-<pre><code>source <(curl -sL https://sc1.asle.me/setup.sh)</code></pre>
+<pre><code>source <(curl -sL https://sc1.asle.me/install.sh)</code></pre>
 
 </br></br>
 !!! ATTENTION !!!</br>
